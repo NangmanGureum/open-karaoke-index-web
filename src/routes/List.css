@@ -1,0 +1,6 @@
+.songs {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    margin-top: 50px;
+}

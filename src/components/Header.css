@@ -1,0 +1,45 @@
+.mainHeader {
+    background-color: darkblue;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content : space-between;
+    box-shadow: 0px 0px 3px rgb(3, 3, 80);
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.siteName {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+}
+
+.linkItem {
+    height: 100%;
+    width: 70px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.linkItem:hover{
+    background-color: #ffffff7f;
+}
+
+.linkItem__home {
+    padding-right: 1px;
+}
+
+.linkItem__list {
+    padding-right: 2px;
+}

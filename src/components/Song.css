@@ -1,0 +1,42 @@
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.song {
+    margin: 10px 30px;
+    padding: 12px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+    align-items: center;
+
+    box-shadow: 0px 1px 5px gray;
+}
+
+.song__code {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.song__content {
+    margin-left: 12px;
+
+    display: flex;
+    flex-flow: nowrap column;
+}
+
+.song__content__title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.song__date {
+    flex-grow: 1;
+    text-align: right;
+}
+
+
