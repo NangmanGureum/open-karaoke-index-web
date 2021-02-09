@@ -18,25 +18,25 @@ class List extends React.Component  {
             {
                 id: 0,
                 code: "ff0001",
-                title: "Never Gonna Give Up",
+                title: "Sample",
                 // titleRom: this.title,
-                titleRom: "Never Gonna Give Up",
-                artist: "Rick Astley",
+                titleRom: "Sample",
+                artist: "Lorem Ipsum",
                 // artistRom: this.artist,
-                artistRom: "Rick Astley",
+                artistRom: "Lorem Ipsum",
                 updatedDate: {
                     year: 2021,
                     month: 2
                 },
-                country: 44
+                country: 2
             },
             {
                 id: 1,
                 code: "ff0002",
-                title: "Pretender",
-                titleRom: "Pretender",
-                artist: "Official髭男dism",
-                artistRom: "Official HIGE DANdism",
+                title: "サンプル",
+                titleRom: "Sample",
+                artist: "山田太郎",
+                artistRom: "Taro Yamada",
                 updatedDate: {
                     year: 2021,
                     month: 2
@@ -46,10 +46,10 @@ class List extends React.Component  {
             {
                 id: 2,
                 code: "ff0003",
-                title: "Dynamite",
-                titleRom: "Dynamite",
-                artist: "방탄소년단",
-                artistRom: "BTS",
+                title: "샘플",
+                titleRom: "Sample",
+                artist: "홍길동",
+                artistRom: "Gil-Dong Hong",
                 updatedDate: {
                     year: 2021,
                     month: 2
